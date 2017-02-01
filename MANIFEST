@@ -1,0 +1,11 @@
+groot
+CHANGES
+examples/demo_groot.pl
+examples/demo_simple.pl
+lib/Acme/Groot.pm
+LICENSE
+Makefile.PL
+MANIFEST
+README
+t/groot.t
+META.yml                                 Module meta-data (added by MakeMaker)

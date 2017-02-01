@@ -1,0 +1,39 @@
+NAME
+    Acme::Groot - An encoding scheme for Guardians of the Galaxy fans
+
+SYNOPSIS
+      use Acme::Groot;
+
+      print "I am Groot";
+
+DESCRIPTION
+    The first time you run a program under "use Acme::Groot", the module
+    removes most of the unsightly characters from your source file. The code
+    continues to work exactly as it did before, but now it looks like this:
+
+      use Acme::Groot;
+      GRooT gROOT GRooT gROOT grooT	GroOt GROoT gRoOT gROOt	GrooT GROot groOt 
+      gRoot	grOot	grOot groOt Groot	GrOoT	gROot groOt GROot GroOt GROoT	GRoOT 
+      GROOt	GrooT GROoT groOt grOOT GroOT	gROot	groOt GRoOT	gr
+
+DIAGNOSTICS
+  "Can't groot '%s'"
+    Acme::Groot could not access the source file to modify it.
+
+  "Can't regroot '%s'"
+    Acme::Groot could not access the source file to execute it.
+
+AUTHOR
+    Simon Wistow <simon@thegestalt.org>
+
+    This was based on Leon Brocard's Acme::Buffy module which was, in turn,
+    based on Damian Conway's Bleach module and was inspired by an
+    idea by Philip Newton. I too blame the London Perl Mongers ...
+    http://www.mail-archive.com/london-pm%40lists.dircon.co.uk/msg03353.html
+
+COPYRIGHT
+    Copyright (c) 2017, Simon Wistow. All Rights Reserved. This module is
+    free software. It may be used, redistributed and/or modified under the
+    terms of the Perl Artistic License (see
+    http://www.perl.com/perl/misc/Artistic.html)
+

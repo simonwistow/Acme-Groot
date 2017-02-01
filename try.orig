@@ -1,0 +1,2 @@
+use Acme::Groot;
+print "I am Groot!\n";
